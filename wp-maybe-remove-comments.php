@@ -1,6 +1,9 @@
 <?php
 /**
  * Maybe disable comments
+ *
+ * @version 1.0
+ * @author Ralf Hortt <me@horttcore.de>
  */
 namespace RalfHortt\MaybeDisableComments;
 
