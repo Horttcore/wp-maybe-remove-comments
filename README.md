@@ -1,4 +1,4 @@
-# WP Maybe Remove Comments
+# WP Maybe Remove Comments [![StyleCI](https://github.styleci.io/repos/205236496/shield?branch=master)](https://github.styleci.io/repos/205236496)
 
 Remove `Comments` menu item in WP Admin if:
 
