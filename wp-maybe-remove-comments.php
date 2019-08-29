@@ -1,10 +1,12 @@
 <?php
 /**
- * Maybe disable comments
+ * Maybe disable comments.
  *
  * @version 1.0
+ *
  * @author Ralf Hortt <me@horttcore.de>
  */
+
 namespace RalfHortt\MaybeDisableComments;
 
 $commentsClosed = get_option('default_comment_status') == 'closed' ? true : false;
