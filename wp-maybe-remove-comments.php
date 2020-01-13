@@ -8,6 +8,7 @@ Author:       Ralf Hortt
 Author URI:   https://horttcore.de/
 License:      GPL
 */
+
 namespace RalfHortt\MaybeDisableComments;
 
 global $wpdb;
