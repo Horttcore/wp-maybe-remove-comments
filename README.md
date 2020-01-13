@@ -5,13 +5,12 @@ Remove `Comments` menu item in WP Admin if:
 - there are no comments and
 - comments are disabled
 
-## Installation
-
-Place the file `wp-maybe-remove-comments.php` in the `mu-plugins` folder
-or
-`composer require ralfhortt/wp-maybe-remove-comments`
-
 ## Changelog
+
+### v1.2
+
+- Add plugin header
+- Increase plugin compatibility
 
 ### v1.1
 
