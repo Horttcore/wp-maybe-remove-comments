@@ -1,0 +1,12 @@
+{
+  "name": "ralfhortt/wp-maybe-remove-comments",
+  "description": "Remove comment admin menu",
+  "type": "wordpress-muplugin",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Ralf Hortt",
+      "email": "me@horttcore.de"
+    }
+  ]
+}

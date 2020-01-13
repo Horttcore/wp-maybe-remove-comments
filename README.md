@@ -2,11 +2,15 @@
 
 Remove `Comments` menu item in WP Admin if:
 
-* there are no comments and
-* comments are disabled
+- there are no comments and
+- comments are disabled
 
 ## Changelog
 
+### v1.1
+
+- Add composer module
+
 ### v1.0
 
-* Initial release
+- Initial release
