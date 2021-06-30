@@ -12,7 +12,8 @@ License:      GPL
 namespace RalfHortt\MaybeDisableComments;
 
 global $wpdb;
-$commentsClosed = get_option('default_comment_status') == 'closed' ? true : false;
+$commentStatus = get_option('default_comment_status');
+$commentsClosed = $commentStatus == 'closed' || !$commentStatus ? true : false;
 $commentCount = $wpdb->get_var("SELECT COUNT(comment_ID) FROM $wpdb->comments WHERE comment_type = ''");
 
 if (!$commentsClosed || $commentCount > 0) {
