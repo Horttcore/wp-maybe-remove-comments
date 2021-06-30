@@ -7,6 +7,12 @@ Remove `Comments` menu item in WP Admin if:
 
 ## Changelog
 
+
+### v1.3
+
+- Improve closed comment detection
+
+
 ### v1.2
 
 - Add plugin header
