@@ -1,4 +1,5 @@
 <?php
+
 /*
 Plugin Name:  WP Maybe Remove Comments
 Plugin URI:   https://github.com/Horttcore/wp-maybe-remove-comments
