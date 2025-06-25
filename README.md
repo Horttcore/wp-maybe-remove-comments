@@ -7,6 +7,10 @@ Remove `Comments` menu item in WP Admin if:
 
 ## Changelog
 
+### v1.4
+
+- Remove from admin bar
+
 
 ### v1.3
 
