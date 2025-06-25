@@ -4,18 +4,16 @@
 Plugin Name:  WP Maybe Remove Comments
 Plugin URI:   https://github.com/Horttcore/wp-maybe-remove-comments
 Description:  Maybe disable comments admin menu entry.
-Version:      1.4.0
+Version:      1.4.3
 Author:       Ralf Hortt
 Author URI:   https://horttcore.de/
 License:      GPL
 */
 
-namespace RalfHortt\MaybeDisableComments;
-
-global $wpdb;
+global $wpdb, $user_ID;
 
 // Do nothing if not logged in
-if (!is_user_logged_in()) {
+if ($user_ID) {
     return;
 }
 
