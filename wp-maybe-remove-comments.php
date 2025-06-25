@@ -15,7 +15,7 @@ global $wpdb;
 
 // Do nothing if not logged in
 if (!is_user_logged_in()) {
-    return
+    return;
 }
 
 $commentStatus = get_option('default_comment_status');
